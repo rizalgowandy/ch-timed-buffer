@@ -1,6 +1,6 @@
 module github.com/kokizzu/ch-timed-buffer
 
-go 1.25.0
+go 1.25.5
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.3.0
@@ -8,17 +8,18 @@ require (
 	github.com/kokizzu/goproc v1.1403.2143
 	github.com/kokizzu/gotro v1.2021.249
 	github.com/stretchr/testify v1.9.0
+	golang.org/x/exp v0.0.0-20240318143956-a85f2c67cd81
 )
 
 require (
 	github.com/ClickHouse/ch-go v0.47.3 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/docker/cli v29.6.1+incompatible
+	github.com/docker/cli v29.6.1+incompatible // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-faster/city v1.0.1 // indirect
 	github.com/go-faster/errors v0.6.1 // indirect
-	github.com/gofiber/fiber/v2 v2.52.13
+	github.com/gofiber/fiber/v2 v2.52.13 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
@@ -29,7 +30,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7 // indirect
-	github.com/opencontainers/runc v1.3.6
+	github.com/opencontainers/runc v1.3.6 // indirect
 	github.com/paulmach/orb v0.7.1 // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
